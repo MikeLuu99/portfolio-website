@@ -24,7 +24,7 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
+                text={`Hi, I&apos;m ${DATA.name.split(" ")[0]} 👋`}
               />
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
@@ -128,7 +128,7 @@ export default function Page() {
                   Check out these projects👇
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I've worked on a variety of projects, mostly related to Machine Learning and Data Science. Here are some of my favorite projects.
+                  I&apos;ve worked on a variety of projects, mostly related to Machine Learning and Data Science. Here are some of my favorite projects.
                 </p>
               </div>
             </div>
@@ -209,7 +209,7 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Let's talk more via{" "}
+                Let&apos;s talk more via{" "}
                 <Link
                   href={DATA.contact.social.LinkedIn.url}
                   className="text-blue-500 hover:underline"
