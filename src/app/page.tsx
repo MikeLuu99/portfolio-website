@@ -199,7 +199,7 @@ export default function Page() {
         </div>
       </section> */}
       <section id="contact">
-        <div className="grid items-center justify-center text-center md:px-6 w-full py-12">
+        <div className="grid items-center justify-center text-center md:px-6 w-full pt-32">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
@@ -229,7 +229,7 @@ export default function Page() {
         </div>
       </section>
       <section id="credit">
-        <div className="container mx-auto text-center">
+        <div className="container mx-auto text-center border rounded-lg bg-foreground text-background p-2 mt-24">
         <p className="text-md">
         Made with{' '}
         <Link href="https://magicui.design/" className="text-blue-600 hover:underline">
