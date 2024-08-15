@@ -112,7 +112,7 @@ export default function Page() {
             ))}
           </div>
           <div className="flex flex-col justify-center items-center">
-          <IconCloudDemo skills={DATA.skills} />
+          <IconCloudDemo skills={DATA.skills as unknown as string[]} />
         </div>
         </div>
       </section>
