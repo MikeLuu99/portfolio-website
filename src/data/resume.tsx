@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Mike Luu",
-  initials: "DV",
+  initials: "ML",
   url: "https://mike.yboard.ai",
   location: "Orange County, California",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
@@ -11,8 +11,9 @@ export const DATA = {
     "A Computer Science Student building tools for all kind of users.",
   summary:
     `Since buildspace s5, I have been working on a visual note-taking app (Yboard) to improve our thinking and working flow for researchers, 
-    students, and writers using AI-generated graphs. 
-    If this sounds interesting to you, feel free to reach out.`,
+    students, and writers using AI-generated graphs. I also make cinematic music and watch movies in my spare time, loving Ghibli at the moment.
+    If these stuffs sounds fun to you, feel free to reach out.
+`,
   avatarUrl: "/avatarIcon.png",
   skills: [
     "python",
