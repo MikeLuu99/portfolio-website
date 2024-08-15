@@ -15,7 +15,7 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-16 py-12 -px-10">
+    <main className="flex flex-col min-h-[100dvh] space-y-8">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -124,15 +124,13 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  My Projects
+                  Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
+                  Check out these projects👇
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I've worked on a variety of projects, mostly related to Machine Learning and Data Science. Here are some of my favorite projects.
                 </p>
               </div>
             </div>
@@ -203,7 +201,7 @@ export default function Page() {
         </div>
       </section> */}
       <section id="contact">
-        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+        <div className="grid items-center justify-center text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
@@ -232,6 +230,16 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
+      <section id="credit">
+        <div className="container mx-auto text-center">
+        <p className="text-md">
+        Made with{' '}
+        <Link href="https://magicui.design/" className="text-blue-600 hover:underline">
+        Magic UI
+      </Link>
+    </p>
+  </div>
+</section>
     </main>
   );
 }
