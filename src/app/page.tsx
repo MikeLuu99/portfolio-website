@@ -15,7 +15,7 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-8">
+    <main className="flex flex-col min-h-[100dvh] gap-8">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -111,15 +111,13 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
-        </div>
-      </section>
-      <section id="skill-cloud">
-        <div className="flex min-h-0 flex-col gap-y-3 justify-center items-center">
+          <div className="flex flex-col justify-center items-center">
           <IconCloudDemo skills={DATA.skills} />
+        </div>
         </div>
       </section>
       <section id="projects">
-        <div className="space-y-12 w-full py-12">
+        <div className="space-y-12 w-full">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
