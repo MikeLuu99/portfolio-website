@@ -8,7 +8,7 @@ export const DATA = {
   location: "Orange County, California",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "A Computer Science Student building tools for all kind of users.",
+    "A Computer Science Student building tools for visualize thinking",
   summary:
     `Since buildspace s5, I have been working on a visual note-taking app (Yboard) to improve our thinking and working flow for researchers, 
     students, and writers using AI-generated graphs. I also make cinematic music and watch movies in my spare time, loving Ghibli at the moment.
