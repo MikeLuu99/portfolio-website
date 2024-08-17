@@ -10,9 +10,9 @@ export const DATA = {
   description:
     "A Computer Science Student building tools for visualize thinking",
   summary:
-    `Since buildspace s5, I have been working on a visual note-taking app (Yboard) to improve our thinking and working flow for researchers, 
-    students, and writers using AI-generated graphs. I also make cinematic music and watch movies in my spare time, loving Ghibli at the moment.
-    If these stuffs sounds fun to you, feel free to reach out.
+    `Since buildspace s5, I have been working on a visual note-taking app [Yboard](https://www.yboard.ai) to improve our thinking and working flow for researchers, 
+students, and writers using AI-generated graphs. I also make cinematic music and watch movies in my spare time, loving Ghibli at the moment.
+If these stuffs sounds fun to you, feel free to reach out.
 `,
   avatarUrl: "/avatarIcon.png",
   skills: [
@@ -143,6 +143,32 @@ Words model as a foundational approach.`,
     }
   ],
   projects: [
+    {
+      title: "Yboard",
+      href: "https://www.yboard.ai",
+      dates: "",
+      active: true,
+      description:
+        `A simple canvas/note-taking tool for branching and remixing AI-generated outputs. 
+        Instead of a linear thread, conversations on Yboard are modular and can be taken apart, 
+        branched, and combined in different ways. `,
+      technologies: [
+        "Typescript",
+        "Next.js",
+        "Cloudflare",
+        "Sqlite"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.yboard.ai",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/yboardScreenshot.png",
+      // video:
+      //   "https://ragdotpage.pages.dev/api/files/visualizationDemo1.gif",
+    },
     {
       title: "AI Storyboard",
       href: "https://aistoryboardhf.streamlit.app/",

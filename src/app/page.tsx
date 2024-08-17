@@ -128,7 +128,7 @@ export default function Page() {
                   Check out these projects👇
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, mostly related to Machine Learning and Data Science. Here are some of my favorite projects.
+                  I&apos;ve worked on a variety of projects, mostly related to Machine Learning and Creative Tools. Here are some of my favorite projects.
                 </p>
               </div>
             </div>
@@ -147,6 +147,7 @@ export default function Page() {
                   dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
+                  // video={project.video}
                   links={project.links}
                 />
               </BlurFade>
