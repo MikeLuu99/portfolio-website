@@ -170,6 +170,36 @@ Words model as a foundational approach.`,
       //   "https://ragdotpage.pages.dev/api/files/visualizationDemo1.gif",
     },
     {
+      title: "Search Shortcuts Extension",
+      href: "https://aistoryboardhf.streamlit.app/",
+      dates: "",
+      active: true,
+      description:
+        `Developed an open source Chrome extension using TypeScript and React that implements DuckDuckGo's "Bang!" 
+        customizable search shortcuts to navigate to different website quickly. 
+        Adding the !w to the search query can redirect the query to Wikipedia instead of Google`,
+      technologies: [
+        "Typescript",
+        "React",
+        "Chrome"
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "https://aistoryboardhf.streamlit.app/",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: "Source",
+          href: "https://github.com/MikeLuu99/CustomBangSearch.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ExtensionScreenshot.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
       title: "AI Storyboard",
       href: "https://aistoryboardhf.streamlit.app/",
       dates: "",
