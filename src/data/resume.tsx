@@ -170,6 +170,36 @@ Words model as a foundational approach.`,
       //   "https://ragdotpage.pages.dev/api/files/visualizationDemo1.gif",
     },
     {
+      title: "JustWrite",
+      href: "https://justwrite.yboard.ai",
+      dates: "",
+      active: true,
+      description:
+        `A text editor that allows writers to "locked in", forcing them to write continuously for a set time 
+        without switching tabs or risk losing their work. Aims to eliminate distractions and boost focused productivity.`,
+      technologies: [
+        "Typescript",
+        "React",
+        "Vite",
+        "Shadcn/UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://justwrite.yboard.ai",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/MikeLuu99/focused-text-editor.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/TextEditorScreenshot.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
       title: "Search Shortcuts Extension",
       href: "https://aistoryboardhf.streamlit.app/",
       dates: "",
