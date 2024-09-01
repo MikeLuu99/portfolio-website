@@ -230,14 +230,18 @@ export default function Page() {
       </section>
       <section id="credit">
         <div className="container mx-auto text-center border rounded-lg bg-foreground text-background p-2 mt-24">
-        <p className="text-md">
-        Made with{' '}
-        <Link href="https://magicui.design/" className="text-blue-600 hover:underline">
-        Magic UI
-      </Link>
-    </p>
-  </div>
-</section>
+          <p className="text-md mt-2">
+            Made with{' '}
+            <Link href="https://magicui.design/" className="text-blue-600 hover:underline">
+              Magic UI
+            </Link>
+          </p>
+          <p className="text-sm mt-2">
+            <a href="/privacy.html" className="text-white hover:underline">
+            </a>
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
