@@ -214,11 +214,11 @@ Words model as a foundational approach.`,
         "Chrome"
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "https://aistoryboardhf.streamlit.app/",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+          type: "Website",
+          href: "https://chromewebstore.google.com/detail/search-shortcuts/imkjedockkilpeaglocpalmmfipiieak?authuser=0&hl=en",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/MikeLuu99/CustomBangSearch.git",
